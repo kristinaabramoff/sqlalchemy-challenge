@@ -60,4 +60,5 @@ Ensure the following has been installed in your environment
 - Flask: To create a RESTful API
 
 run: python app.py 
+then open http://127.0.0.1:5000 on your browser
 
