@@ -17,6 +17,9 @@ This project demonstrates proficiency in:
 - **Automated Reflection**: Used SQLAlchemy’s `automap_base()` to automatically reflect tables from the SQLite database.
 - **Efficient Querying**: Leveraged SQLAlchemy ORM queries to efficiently extract and manipulate the data.
 
+  ![create_engine](https://github.com/user-attachments/assets/cfed6caf-5555-40d2-9622-31ee603c8447)
+
+
 ### 2. Climate Data Analysis
 - **Precipitation Analysis**: Queried the most recent 12 months of precipitation data and visualized it using Matplotlib.
 - **Station Analysis**: Identified the most active weather station and analyzed temperature trends for the past year.
@@ -42,6 +45,11 @@ The API provides multiple endpoints that allow users to access the climate data:
 ### 2. Station and Temperature Analysis
 - Queried the total number of stations and identified the most active station.
 - For the most active station, retrieved and plotted the last 12 months of temperature observations (TOBS) as a histogram.
+
+- ![active_station](https://github.com/user-attachments/assets/e2a52cbc-25e7-4007-921d-f6c32984b189)
+
+- 
+![active_station](https://github.com/user-attachments/assets/ca6206a7-a001-4aef-840b-d11e2018f7dc)
 
 ### 3. API Endpoints
 - Designed dynamic Flask routes to deliver specific climate data. 
